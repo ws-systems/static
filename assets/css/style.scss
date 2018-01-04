@@ -4,6 +4,9 @@
 @import "{{ site.theme }}";
 
 /* Hide Repo Name & Link */
-body > div:first-child {
+body > div > *:first-child {
   display: none;
+}
+body > div > *:nth-child(2) {
+  margin-top: 0;
 }
