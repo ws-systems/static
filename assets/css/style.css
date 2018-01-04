@@ -1,0 +1,9 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Hide Repo Name & Link */
+body > div:first-child {
+  display: none;
+}
